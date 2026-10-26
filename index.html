@@ -30,6 +30,10 @@ a{color:var(--ac)}
 .ph{background:none;border:none;padding:0}
 .video{display:flex;align-items:center;justify-content:center;min-height:180px;text-align:center;border:2px dashed var(--bd);border-radius:12px;color:var(--mut);padding:20px}
 .ref{padding-left:32px;text-indent:-32px;margin:10px 0}
+figure{margin:22px 0;text-align:center}
+figure svg{max-width:100%;height:auto}
+figcaption{font:13px system-ui,sans-serif;color:var(--mut);margin-top:6px}
+.hero{display:block;margin:0 auto 14px;width:210px;max-width:60%;height:auto}
 footer{text-align:center;color:var(--mut);font:13px system-ui,sans-serif;padding:24px}
 </style>
 </head>
@@ -38,6 +42,12 @@ footer{text-align:center;color:var(--mut);font:13px system-ui,sans-serif;padding
 <a href="#s1">1. Dilema</a><a href="#s2">2. Análisis</a><a href="#s3">3. Entrevista</a><a href="#s4">4. Deliberación</a><a href="#s5">5. Conclusiones</a><a href="#s6">6. Referencias</a>
 </nav>
 <header>
+<svg class="hero" viewBox="0 0 240 120" role="img" aria-label="Ojo rodeado de nodos de datos, símbolo de vigilancia con IA">
+<g stroke="var(--ac)" stroke-width="1.5" opacity=".55"><line x1="120" y1="60" x2="22" y2="18"/><line x1="120" y1="60" x2="218" y2="18"/><line x1="120" y1="60" x2="22" y2="104"/><line x1="120" y1="60" x2="218" y2="104"/></g>
+<g fill="var(--ac)"><circle cx="22" cy="18" r="6"/><circle cx="218" cy="18" r="6"/><circle cx="22" cy="104" r="6"/><circle cx="218" cy="104" r="6"/></g>
+<path d="M40 60 Q120 -2 200 60 Q120 122 40 60Z" fill="var(--card)" stroke="var(--ac)" stroke-width="4"/>
+<circle cx="120" cy="60" r="27" fill="var(--ac)"/><circle cx="120" cy="60" r="12" fill="var(--tx)"/><circle cx="128" cy="52" r="4" fill="var(--card)"/>
+</svg>
 <h1>Inteligencia artificial para la vigilancia y la toma de decisiones: ¿seguridad o riesgo para los derechos?</h1>
 <p><b>Integrantes:</b> <span class="ph">Marshall Edward Robinson Ramirez</span></p>
 <p><b>Programa académico:</b> <span class="ph">Ingeniería de Sistemas</span> · <b>Curso:</b> <span class="ph">Ética y Axiología</span></p>
@@ -51,6 +61,20 @@ footer{text-align:center;color:var(--mut);font:13px system-ui,sans-serif;padding
 <p>La inteligencia artificial (IA) puede analizar imágenes, datos y patrones de comportamiento para apoyar tareas de vigilancia o toma de decisiones. Puede ayudar a identificar situaciones de riesgo o a organizar grandes cantidades de información. Sin embargo, también puede recopilar datos personales, cometer errores o afectar de manera desigual a distintos grupos. Esto genera un dilema entre los posibles beneficios para la seguridad y la eficiencia, y la protección de la privacidad, la igualdad y la autonomía. La UNESCO recomienda que los sistemas de IA respeten los derechos humanos y cuenten con transparencia y supervisión humana (<a href="https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence?hub=1063" target="_blank" rel="noopener">UNESCO, 2021</a>).</p>
 <h3>Descripción del problema</h3>
 <p>El problema consiste en decidir cuándo es aceptable usar IA para vigilar personas o influir en decisiones que las afectan. Una decisión automatizada puede basarse en datos incompletos, generar falsos positivos o reproducir sesgos. Si la persona afectada no sabe cómo se tomó la decisión ni puede pedir que la revisen, resulta difícil corregir un error. Por eso su uso requiere límites claros, protección de datos, transparencia y mecanismos para reclamar.</p>
+<figure>
+<svg viewBox="0 0 600 270" role="img" aria-label="Balanza que enfrenta seguridad y eficiencia contra derechos y dignidad">
+<text x="300" y="26" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="var(--tx)">¿Dónde poner el límite?</text>
+<rect x="295" y="55" width="10" height="168" rx="4" fill="var(--ac)"/>
+<rect x="240" y="222" width="120" height="14" rx="7" fill="var(--ac)"/>
+<line x1="120" y1="75" x2="480" y2="75" stroke="var(--ac)" stroke-width="8" stroke-linecap="round"/>
+<circle cx="300" cy="75" r="13" fill="var(--ac)"/>
+<g stroke="var(--ac)" stroke-width="2.5"><line x1="120" y1="75" x2="62" y2="150"/><line x1="120" y1="75" x2="178" y2="150"/><line x1="480" y1="75" x2="422" y2="150"/><line x1="480" y1="75" x2="538" y2="150"/></g>
+<path d="M52 150 H188 Q120 200 52 150Z" fill="var(--hl)" stroke="var(--ac)" stroke-width="3"/>
+<path d="M412 150 H548 Q480 200 412 150Z" fill="var(--hl)" stroke="var(--ac)" stroke-width="3"/>
+<g font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="var(--tx)" text-anchor="middle"><text x="120" y="228">Seguridad y eficiencia</text><text x="480" y="228">Derechos y dignidad</text></g>
+</svg>
+<figcaption>Figura 1. El dilema: equilibrar los beneficios de la IA con la protección de las personas. Elaboración propia.</figcaption>
+</figure>
 <h3>Actores involucrados</h3>
 <ul>
 <li>Las personas que son vigiladas o evaluadas.</li>
@@ -125,6 +149,15 @@ footer{text-align:center;color:var(--mut);font:13px system-ui,sans-serif;padding
 <section id="s4">
 <h2>4. Deliberación ética</h2>
 <p>El dilema enfrenta la posibilidad de mejorar la seguridad o la eficiencia con el riesgo de afectar derechos fundamentales. Una postura favorable al uso de IA puede señalar que ayuda a procesar información rápidamente y a identificar patrones que una persona podría pasar por alto. Una postura crítica advierte que los errores y sesgos pueden perjudicar a personas, y que la vigilancia puede invadir su privacidad.</p>
+<figure>
+<svg viewBox="0 0 700 110" role="img" aria-label="Flujo: datos, IA analiza, recomendación, revisión humana, decisión">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="var(--ac)"/></marker></defs>
+<g stroke="var(--ac)" stroke-width="2.5" marker-end="url(#ar)"><line x1="129" y1="55" x2="149" y2="55"/><line x1="267" y1="55" x2="287" y2="55"/><line x1="405" y1="55" x2="425" y2="55"/><line x1="543" y1="55" x2="563" y2="55"/></g>
+<g stroke="var(--ac)" stroke-width="2.5"><rect x="11" y="30" width="118" height="50" rx="10" fill="var(--card)"/><rect x="149" y="30" width="118" height="50" rx="10" fill="var(--card)"/><rect x="287" y="30" width="118" height="50" rx="10" fill="var(--card)"/><rect x="425" y="30" width="118" height="50" rx="10" fill="var(--ac)"/><rect x="563" y="30" width="118" height="50" rx="10" fill="var(--card)"/></g>
+<g font-family="system-ui,sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="var(--tx)"><text x="70" y="60">Datos</text><text x="208" y="60">IA analiza</text><text x="346" y="60">Recomendación</text><text x="484" y="60" fill="var(--card)">Revisión humana</text><text x="622" y="60">Decisión</text></g>
+</svg>
+<figcaption>Figura 2. La supervisión humana como punto de control antes de decidir. Elaboración propia.</figcaption>
+</figure>
 <div class="card"><b>Mi postura:</b> la IA puede utilizarse solo cuando exista un propósito legítimo y claramente definido, se protejan los datos y se evalúen los posibles daños. Las decisiones importantes que afecten a una persona deberían poder ser revisadas por una persona responsable. También deberían existir explicaciones comprensibles y mecanismos para corregir errores o presentar reclamos. Esta postura busca equilibrar los posibles beneficios con los principios de autonomía, justicia, beneficencia y no maleficencia.</div>
 </section>
 
