@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>IA para la vigilancia y la toma de decisiones: dilema bioético</title>
+<style>
+:root{--bg:#e9f1ec;--card:#ffffff;--tx:#1b2a22;--mut:#55665c;--ac:#2a6b4a;--bd:#c9dacf;--hl:#d5e8dc;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1a14;--card:#16241c;--tx:#e6efe9;--mut:#9fb3a7;--ac:#7bc79a;--bd:#27392e;--hl:#1b2e23;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f1a14;--card:#16241c;--tx:#e6efe9;--mut:#9fb3a7;--ac:#7bc79a;--bd:#27392e;--hl:#1b2e23;color-scheme:dark}
+html{scroll-padding-top:70px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:17px/1.65 Georgia,"Times New Roman",serif}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--card);border-bottom:1px solid var(--bd);display:flex;gap:4px;overflow-x:auto;padding:8px 12px}
+nav a{white-space:nowrap;padding:6px 12px;border-radius:20px;color:var(--tx);text-decoration:none;font:600 14px system-ui,sans-serif}
+nav a:hover{background:var(--hl);color:var(--ac)}
+header{padding:56px 20px 44px;text-align:center;background:var(--hl);border-bottom:1px solid var(--bd)}
+header h1{max-width:760px;margin:0 auto 14px;font-size:clamp(26px,5vw,40px);line-height:1.2}
+header p{margin:4px 0;color:var(--mut);font-family:system-ui,sans-serif;font-size:15px}
+main{max-width:820px;margin:0 auto;padding:12px 18px 60px}
+section{padding-top:36px}
+h2{font-size:28px;margin:0 0 6px;color:var(--ac)}
+h3{font:700 18px system-ui,sans-serif;margin:24px 0 8px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:18px 20px;margin:12px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.grid .card{margin:0}
+.grid b{font-family:system-ui,sans-serif;color:var(--ac)}
+ul,ol{padding-left:22px}li{margin:5px 0}
+a{color:var(--ac)}
+.ph{background:none;border:none;padding:0}
+.video{display:flex;align-items:center;justify-content:center;min-height:180px;text-align:center;border:2px dashed var(--bd);border-radius:12px;color:var(--mut);padding:20px}
+.ref{padding-left:32px;text-indent:-32px;margin:10px 0}
+footer{text-align:center;color:var(--mut);font:13px system-ui,sans-serif;padding:24px}
+</style>
+</head>
+<body>
+<nav id="nav">
+<a href="#s1">1. Dilema</a><a href="#s2">2. Análisis</a><a href="#s3">3. Entrevista</a><a href="#s4">4. Deliberación</a><a href="#s5">5. Conclusiones</a><a href="#s6">6. Referencias</a>
+</nav>
+<header>
+<h1>Inteligencia artificial para la vigilancia y la toma de decisiones: ¿seguridad o riesgo para los derechos?</h1>
+<p><b>Integrantes:</b> <span class="ph">Marshall Edward Robinson Ramirez</span></p>
+<p><b>Programa académico:</b> <span class="ph">Ingenieria de Sistemas</span> · <b>Curso:</b> <span class="ph">Etica y Axiologia</span></p>
+<p><span class="ph">26 de octubre 2026</span></p>
+</header>
+<main>
+
+<section id="s1">
+<h2>1. Presentación del dilema</h2>
+<h3>Contextualización</h3>
+<p>La inteligencia artificial (IA) puede analizar imágenes, datos y patrones de comportamiento para apoyar tareas de vigilancia o toma de decisiones. Puede ayudar a identificar situaciones de riesgo o a organizar grandes cantidades de información. Sin embargo, también puede recopilar datos personales, cometer errores o afectar de manera desigual a distintos grupos. Esto genera un dilema entre los posibles beneficios para la seguridad y la eficiencia, y la protección de la privacidad, la igualdad y la autonomía. La UNESCO recomienda que los sistemas de IA respeten los derechos humanos y cuenten con transparencia y supervisión humana (<a href="https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence?hub=1063" target="_blank" rel="noopener">UNESCO, 2021</a>).</p>
+<h3>Descripción del problema</h3>
+<p>El problema consiste en decidir cuándo es aceptable usar IA para vigilar personas o influir en decisiones que las afectan. Una decisión automatizada puede basarse en datos incompletos, generar falsos positivos o reproducir sesgos. Si la persona afectada no sabe cómo se tomó la decisión ni puede pedir que la revisen, resulta difícil corregir un error. Por eso su uso requiere límites claros, protección de datos, transparencia y mecanismos para reclamar.</p>
+<h3>Actores involucrados</h3>
+<ul>
+<li>Las personas que son vigiladas o evaluadas.</li>
+<li>Las entidades públicas o privadas que implementan estos sistemas.</li>
+<li>Los equipos que diseñan y mantienen la IA.</li>
+<li>Los funcionarios o trabajadores que utilizan sus resultados.</li>
+<li>Las comunidades que podrían verse afectadas de forma desigual.</li>
+<li>Las autoridades encargadas de proteger derechos y datos personales.</li>
+</ul>
+<h3>Contexto social, tecnológico y jurídico</h3>
+<p>La IA procesa grandes volúmenes de datos y produce resultados que ayudan a priorizar tareas o identificar patrones, pero su desempeño depende de los datos usados, el propósito del sistema y la manera en que se aplica. El marco de gestión de riesgos del NIST señala que una IA confiable debe atender la validez, la transparencia, la privacidad, la explicabilidad y la gestión de sesgos (<a href="https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/" target="_blank" rel="noopener">NIST, 2023</a>).</p>
+<p>En Colombia, la <b>Ley 1581 de 2012</b> establece disposiciones generales para la protección de datos personales y reconoce derechos de las personas sobre la información que se recoge sobre ellas. Su aplicación concreta depende del tipo de información y de las circunstancias del tratamiento (<a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981" target="_blank" rel="noopener">Ley 1581 de 2012</a>).</p>
+<h3>¿Por qué es importante este tema?</h3>
+<p>Las decisiones basadas en IA pueden influir en la privacidad, la libertad y las oportunidades de las personas. Analizar este dilema ayuda a pensar cómo aprovechar la tecnología con responsabilidad, evitar daños y asegurar que las personas puedan conocer y cuestionar decisiones que las afectan.</p>
+</section>
+
+<section id="s2">
+<h2>2. Análisis interdisciplinario</h2>
+<h3>A. Perspectiva ética</h3>
+<p><b>Valores en conflicto:</b> seguridad y eficiencia frente a privacidad, igualdad, autonomía y dignidad.</p>
+<div class="grid">
+<div class="card"><b>Autonomía</b><br>Las personas deben poder conocer, dentro de lo posible, cuándo se usan sus datos y cómo ejercer sus derechos.</div>
+<div class="card"><b>Beneficencia</b><br>La IA debería aportar un beneficio real, como mejorar la seguridad o agilizar un servicio.</div>
+<div class="card"><b>No maleficencia</b><br>Se deben prevenir daños por errores, vigilancia excesiva, filtraciones o discriminación.</div>
+<div class="card"><b>Justicia</b><br>Los beneficios y riesgos no deberían distribuirse de manera desigual entre grupos.</div>
+</div>
+<h3>Teorías éticas relacionadas</h3>
+<ul>
+<li><b>Utilitarismo:</b> evaluaría si los beneficios generales del sistema superan los daños que puede causar.</li>
+<li><b>Deontología:</b> destacaría que las personas deben ser tratadas con dignidad y no solo como datos analizables.</li>
+<li><b>Ética de la virtud:</b> preguntaría si quienes diseñan y usan la tecnología actúan con prudencia, honestidad y responsabilidad.</li>
+</ul>
+<div class="card"><b>Tensión moral:</b> puede parecer útil automatizar decisiones para ganar rapidez, pero esa eficiencia no justifica por sí sola la pérdida de privacidad, la falta de explicación o el daño a personas afectadas por errores.</div>
+<h3>B. Perspectiva tecnológica, social y jurídica</h3>
+<div class="grid">
+<div class="card"><b>Beneficios posibles</b><ul><li>Analizar información con rapidez.</li><li>Apoyar la identificación de patrones o riesgos.</li><li>Ayudar a priorizar recursos y tareas.</li></ul></div>
+<div class="card"><b>Riesgos posibles</b><ul><li>Uso inadecuado de datos personales.</li><li>Errores o falsos positivos.</li><li>Reproducción de sesgos.</li><li>Dificultad para cuestionar una decisión.</li><li>Vigilancia desproporcionada.</li></ul></div>
+</div>
+<p>El NIST recomienda gestionar los riesgos de la IA durante su diseño, uso y evaluación, con atención a la transparencia, la rendición de cuentas, la privacidad y los sesgos (NIST, 2023). La recomendación de la UNESCO también destaca la protección de la privacidad, la transparencia y la supervisión humana (UNESCO, 2021).</p>
+<p><b>Marco legal colombiano:</b> la Ley 1581 de 2012 regula aspectos del tratamiento de datos personales. Para aplicarla a un sistema concreto, se debe considerar qué datos recoge, quién los trata, con qué propósito y bajo qué condiciones.</p>
+</section>
+
+<section id="s3">
+<h2>3. La voz de la experiencia</h2>
+<h3>Profesional entrevistado</h3>
+<p><b>Nombre:</b> <span class="ph">[Nombre del entrevistado]</span><br>
+<b>Formación o experiencia:</b> <span class="ph">[Ej.: ingeniero de sistemas, área tecnológica]</span><br>
+<b>Relación con el tema:</b> <span class="ph">[Cómo se relaciona con la IA]</span></p>
+<h3>Justificación de la elección</h3>
+<p>Entrevisté a <span class="ph">[nombre]</span> porque su formación o experiencia en <span class="ph">[área]</span> le permite aportar una perspectiva sobre el diseño y el uso de sistemas tecnológicos. Su opinión ayuda a comprender aspectos como los errores, los sesgos, la privacidad de los datos y la supervisión humana.</p>
+<h3>Video de la entrevista (3 a 5 minutos)</h3>
+<iframe style="width:100%;aspect-ratio:16/9;border:0;border-radius:12px" src="https://www.youtube.com/embed/fGikEHdicNc" title="Entrevista" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style="text-align:center;font:14px system-ui,sans-serif"><a href="https://youtu.be/fGikEHdicNc" target="_blank" rel="noopener">¿No carga? Ver el video en YouTube</a></p>
+<h3>Preguntas seleccionadas</h3>
+<ol>
+<li>¿Qué criterios deberían considerarse antes de implementar IA para vigilar o tomar decisiones sobre personas?</li>
+<li>¿Cómo se pueden detectar y reducir los errores o sesgos de un sistema de IA?</li>
+<li>¿Qué medidas ayudan a proteger la privacidad de las personas cuyos datos utiliza el sistema?</li>
+<li>¿Qué decisiones deberían quedar bajo revisión de una persona y por qué?</li>
+<li>¿Cómo deberían establecerse las responsabilidades cuando una decisión apoyada por IA perjudica a alguien?</li>
+</ol>
+<h3>Principales aportes</h3>
+<ul>
+<li><b>Antes de implementar la IA:</b> es necesario tener claro para qué se va a usar y si de verdad hace falta. También se debe pensar cómo podría afectar a las personas y proteger los datos que se recopilen.</li>
+<li><b>Errores y sesgos:</b> hay que probar el sistema con personas y situaciones diferentes para notar si comete errores o trata peor a algún grupo. Si ocurre, se debe corregir y seguir revisándolo de forma continua.</li>
+<li><b>Privacidad y datos:</b> solo deben usarse los datos que realmente hacen falta, las personas deben saber para qué se utilizará su información y se debe evitar que otros accedan a ella sin permiso.</li>
+<li><b>Supervisión humana:</b> una persona debería revisar las decisiones que afecten los derechos de alguien, como las que cambian sus oportunidades o su seguridad, porque la IA puede equivocarse o no entender toda la situación.</li>
+<li><b>Responsabilidades:</b> la organización que usa el sistema debe revisar lo ocurrido y dejar claro quién estaba encargado de supervisarlo. La persona afectada debería poder pedir una explicación y una solución.</li>
+</ul>
+</section>
+
+<section id="s4">
+<h2>4. Deliberación ética</h2>
+<p>El dilema enfrenta la posibilidad de mejorar la seguridad o la eficiencia con el riesgo de afectar derechos fundamentales. Una postura favorable al uso de IA puede señalar que ayuda a procesar información rápidamente y a identificar patrones que una persona podría pasar por alto. Una postura crítica advierte que los errores y sesgos pueden perjudicar a personas, y que la vigilancia puede invadir su privacidad.</p>
+<div class="card"><b>Mi postura:</b> la IA puede utilizarse solo cuando exista un propósito legítimo y claramente definido, se protejan los datos y se evalúen los posibles daños. Las decisiones importantes que afecten a una persona deberían poder ser revisadas por una persona responsable. También deberían existir explicaciones comprensibles y mecanismos para corregir errores o presentar reclamos. Esta postura busca equilibrar los posibles beneficios con los principios de autonomía, justicia, beneficencia y no maleficencia.</div>
+</section>
+
+<section id="s5">
+<h2>5. Conclusiones</h2>
+<p>Durante este proyecto comprendí que la inteligencia artificial puede ofrecer beneficios, pero sus resultados no son automáticamente objetivos ni imparciales. Su impacto depende de los datos utilizados, el propósito y la forma en que las personas interpretan sus recomendaciones.</p>
+<p>Mi comprensión del dilema cambió al reconocer que no basta con preguntar si una tecnología funciona: también hay que preguntarse a quién puede afectar, quién responde por sus errores y cómo se protegen los derechos. La deliberación bioética permite analizar estas preguntas antes de implementar una tecnología y orientar su uso hacia el respeto de las personas.</p>
+</section>
+
+<section id="s6">
+<h2>6. Referencias</h2>
+<p class="ref">Departamento Administrativo de la Función Pública. (2012). <i>Ley 1581 de 2012: Por la cual se dictan disposiciones generales para la protección de datos personales</i>. <a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981" target="_blank" rel="noopener">https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981</a></p>
+<p class="ref">National Institute of Standards and Technology. (2023). <i>Artificial Intelligence Risk Management Framework (AI RMF 1.0)</i>. <a href="https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/" target="_blank" rel="noopener">https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/</a></p>
+<p class="ref">UNESCO. (2021). <i>Recommendation on the Ethics of Artificial Intelligence</i>. <a href="https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence?hub=1063" target="_blank" rel="noopener">https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence?hub=1063</a></p>
+</section>
+</main>
+<footer>Micrositio académico · Dilema bioético fundamentado</footer>
+<script>
+document.querySelectorAll('nav a, .video a').forEach(function(a){
+  a.addEventListener('click',function(e){
+    var id=a.getAttribute('href');
+    var el=id&&id.charAt(0)==='#'?document.querySelector(id):null;
+    if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth'});}
+  });
+});
+</script>
+</body>
+</html>
